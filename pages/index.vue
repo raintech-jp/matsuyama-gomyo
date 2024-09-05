@@ -53,8 +53,8 @@
 import { onMounted, ref } from "vue";
 
 const stations = ref([
-  { area: "浅野", id: 56, name: "五明小学校", rainfalls: 0 },
-  { area: "浅野", id: 56, name: "菅沢公民館", rainfalls: 0 }
+  { area: "浅野", id: 69, name: "五明小学校", rainfalls: 0 },
+  { area: "浅野", id: 70, name: "菅沢公民館", rainfalls: 0 }
 ]);
 
 const getBackgroundColor = (rainfall) => {
